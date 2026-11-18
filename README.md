@@ -296,7 +296,7 @@ flowchart TD
 ├── Grafica python.png                    # Gráfica comparativa generada en Python
 ├── PID.png                               # Captura de parámetros en PID Tuner
 ├── osciloscopio.png                      # Captura experimental del osciloscopio
-└── diagrama_biologico.png                # Diagrama en BioRender (Pendiente)
+└── diagrama_biologico.png                # Diagrama en BioRender
 ```
 
 [Volver al contenido](#contenido)
