@@ -93,7 +93,6 @@ plt.ylim(0, 1.2); plt.yticks(np.arange(0, 1.3, 0.1))
 plt.xlabel('$t [s]$')
 plt.ylabel('$F_S(t)$ [V]')
 
-# Leyenda ubicada en la parte superior fuera del área de dibujo
 plt.legend(bbox_to_anchor=(0.5, 1.08), loc='center', ncol=4, frameon=False)
 
 fg.savefig('Control_caso_python3.pdf', bbox_inches='tight')
