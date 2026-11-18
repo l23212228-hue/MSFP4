@@ -103,7 +103,7 @@ El circuito equivalente consta de una fuente de voltaje $V_e(t)$ en serie con $R
 | Utilización o eliminación de señal | $R_2$ | Resistencia asociada con la disipación o consumo en el órgano diana. |
 | Flujo de respuesta del tejido diana | $F_s(t) = i_2(t)$ | Corriente correspondiente a la rama de respuesta del órgano diana. |
 | Nivel hormonal efectivo | $V_s(t)$ | Voltaje de salida normalizado disponible en el compartimento de interés. |
-
+![Diagrama del sistema endocrino](Biorender.png)
 [Volver al contenido](#contenido)
 
 ---
