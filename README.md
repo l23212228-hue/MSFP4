@@ -42,7 +42,7 @@ Repositorio académico de la asignatura **Modelado de Sistemas Fisiológicos**, 
 <a id="resumen"></a>
 ## Resumen
 
-La dinámica endocrina regula procesos fisiológicos mediante la liberación, circulación y captación de hormonas en órganos diana. En este trabajo se construye un modelo fenomenológico de segundo orden mediante una red RLC donde $V_e(t)$ representa el estímulo neural/metabólico de secreción, $R_1$ modela las pérdidas de transporte, $C$ representa la acumulación temporal de la hormona y la rama en serie $L$-$R_2$ describe la inercia y eliminación en el tejido diana.
+La dinámica endocrina regula procesos fisiológicos mediante la liberación, circulación y captación de hormonas en órganos diana. En este trabajo se construye un modelo fenomenológico de segundo orden mediante una red RLC donde $V_e(t)$ representa el estímulo neural/metabólico de secreción, $R_1$ modela las pérdidas de transporte, $C$ representa la acumulación temporal de la hormona y la rama en serie $L$ - $R_2$ describe la inercia y eliminación en el tejido diana.
 
 Se analiza el comportamiento ante una entrada escalón unitario $V_e(t) = u(t)$ comparando un individuo sano (*control*) con una condición patológica (*caso*) generada al alterar $C$ y $R_2$. Posteriormente, se sintoniza un **controlador PID** para restaurar la respuesta hormonal normal y se validan los resultados de forma cruzada mediante ecuaciones integro-diferenciales en Simulink, Simscape Electrical, código en Python y montaje físico en protoboard medido con osciloscopio.
 
