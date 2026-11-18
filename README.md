@@ -92,7 +92,7 @@ Esta práctica integra contenidos de la asignatura **Modelado de Sistemas Fisiol
 ## Modelo físico y analogía eléctrica
 
 El circuito equivalente consta de una fuente de voltaje $V_e(t)$ en serie con $R_1$, conectada a un nodo central donde se mide la salida $V_s(t)$. De dicho nodo se derivan dos ramas en paralelo hacia referencia: un capacitor $C$ y una rama en serie formada por un inductor $L$ y un resistor $R_2$.
-![Modelo físico y circuito equivalente del sistema endocrino](Biorender.png)
+
 | Variable o proceso fisiológico | Representación eléctrica | Interpretación dentro del modelo |
 |---|---|---|
 | Estímulo para la secreción hormonal | $V_e(t)$ | Señal de entrada que activa la respuesta del sistema endocrino. |
