@@ -1,5 +1,5 @@
 """
-Práctica 3: Modelado y control del sistema musculoesquelético
+Práctica 4: Modelado y control del sistema endocrino
 Departamento de Ingeniería Eléctrica y Electrónica, Ingeniería Biomédica
 Tecnológico Nacional de México [TecNM - Tijuana]
 Blvd. Alberto Limón Padilla s/n, C.P. 22454, Tijuana, B.C., México
@@ -44,6 +44,12 @@ Ce = kD / Rr
 numPID = [Re * Rr * Ce * Cr, Re * Ce + Rr * Cr, 1]
 denPID = [Re * Cr, 0]
 PID = ctrl.tf(numPID, denPID)
+
+print(f"El valor de la capacitancia Cr es de {Cr} Faradios.")
+print(f"El valor de la resistencia Re es de {Re:.4f} Ohms.")
+print(f"El valor de la resistencia Rr es de {Rr:.4f} Ohms.")
+print(f"El valor de la capacitancia Ce es de {Ce:.6e} Faradios.\n")
+print(f"Función de transferencia del controlador PID: {PID}\n")
 
 # Sistema de control en lazo cerrado
 sysPID = ctrl.feedback(ctrl.series(PID, sysCaso), 1, sign=-1)
@@ -90,6 +96,5 @@ plt.ylabel('$F_S(t)$ [V]')
 # Leyenda ubicada en la parte superior fuera del área de dibujo
 plt.legend(bbox_to_anchor=(0.5, 1.08), loc='center', ncol=4, frameon=False)
 
-plt.show()
-
 fg.savefig('Control_caso_python3.pdf', bbox_inches='tight')
+plt.show()
